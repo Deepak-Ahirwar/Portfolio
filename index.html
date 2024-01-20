@@ -1,0 +1,267 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Deepak's Portfolio</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+</head>
+<body>
+<!-- Navbar -->
+<div id="header">
+  <div class="container">
+    <nav>
+      <img src="images/logo2.png" id="logo3">
+      <div class="menu" id="sidemenu">
+        <ul id="list">
+          <li><a href="#header">Home</a></li>
+          <li><a href="#about">About</a></li>
+          <li><a href="#projects">Projects</a></li>
+          <li><a href="#services">Services</a></li>
+          <li><a href="#blogs">Blogs</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+        <div class="toggle-btn" id="btn">
+          <span id="btnText">Light</span>
+          <i class="fa-solid fa-sun" id="btnIcon"></i>
+        </div>
+        <i class="fa-solid fa-xmark bars" onclick="closemenu();"></i>
+      </div>
+      <i class="fa-solid fa-bars bars" onclick="openmenu();"></i>
+    </nav>
+  </div>
+</div>
+
+     <div class="content-section">
+      <div class="container">
+        <div class="row1">
+          <div class="left-content ">
+          
+          <h1>
+            Hello, I'm <span>Deepak</span><br> From India
+          </h1>
+          <P>I'm a Python Devloper and Data Science Enthusiastic</P>
+          <a href="images/Deepak_Ahirwar_Resume.pdf" download class="btn1 btn2"> Download CV</a>
+        </div>
+        <div class="right-content ">
+          <img src="images/about.jpg" >
+          <div class="color-box"></div>
+        </div>
+        </div>
+        
+      </div>
+     </div>
+
+    </div>
+  </div>
+  <!---------about-------->
+  <div id="about">
+    <div class="container">
+      <div class="row">
+        <div class="about-col-1">
+          <img src="images/about3.jpg">
+        </div>
+        <div class="about-col-2">
+         <h1 class="sub-title">About Me</h1>
+         <p>Hello! I'm <b>Deepak Ahirwar</b>, a passionate Computer Science Engineering student from LNCT Bhopal,
+          where my academic journey has equipped me with a robust foundation in technology and programming. 
+           I thrive on exploring the diverse realms of technology, specializing in a wide array of skills
+          ranging from Python, MongoDB, SQL, to Core Java.
+          <br>
+          <br>
+          My fascination with the vast world of data led me to dive deeply into the realm of Data Science.
+          I am an ardent enthusiast in this field, having undertaken numerous projects across various domains.
+          My expertise extends to Machine Learning, where I've worked on predictive analytics, classification 
+          models, and data visualization, among other applications.</p>
+
+        <div class="tab-title">
+          <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+          <p class="tab-links" onclick="opentab('experience')">Experience</p>
+          <p class="tab-links" onclick="opentab('education')">Education</p>
+        </div>
+        <div class="tab-contents active-tab" id="skills">
+          <ul>
+            <li><span>Python</span><br>I have utilized Python as a versatile tool, implementing machine 
+              learning algorithms, automating repetitive tasks, and creating scalable 
+              web applications in various projects.</li>
+            <li><span>Machine Learning</span><br>I have hands-on experience working with a variety of machine learning 
+              algorithms, utilizing them in various projects to solve real-world problems and drive insights from data.
+            </li>
+            <li><span>Data Analytics</span><br>I have actively engaged in multiple data analytics projects, employing 
+              various techniques and tools to derive meaningful insights, facilitate informed decision-making, and extract
+               valuable information from diverse datasets.</li>
+          </ul>
+        </div>
+        <div class="tab-contents" id="experience">
+          <ul>
+            <li><span>Martian Summer Internship Program 2023</span><br>I undertook a dynamic 3-month internship at Persistent Systems, delving into various 
+              technical domains such as Python, DBMS, computer networks, and operating systems.
+              This experience significantly broadened my understanding and practical skills across 
+              diverse areas of technology.</li>
+            <li><span>Web Devlopment Internship</span><br>I completed a one-month internship at Oasis Infobyte, where I actively contributed to 
+              and gained valuable experience working on multiple projects. This opportunity allowed me 
+              to apply my skills and knowledge in practical scenarios, furthering my 
+              understanding of real-world project dynamics.</li>
+            <!-- <li><span>2023-present</span><br>Desigining web.app interface</li> -->
+          </ul>
+        </div>
+        <div class="tab-contents" id="education">
+          <ul>
+            <li><span>B.Tech - (2020-24)</span><br>I'm currently pursuing a Bachelor's in Computer Science Engineering,
+              where I'm gaining expertise in programming, problem-solving, and technology to innovate 
+              and create impactful solutions for future challenges.</li>
+            <li><span>XII - (2019-20)</span><br>I completed my 12th grade education at Govt. Higher Secondary School Matguwan 
+              Chhatarpur, where I laid the academic groundwork for my journey into the field of 
+              Computer Science Engineering.</li>
+            <li><span>X - (2017-18)</span><br>I completed my 10th grade education at Govt. Higher Secondary School Matguwan 
+              Chhatarpur, marking an important milestone in my academic journey.</li>
+          </ul>
+        </div>
+        </div>
+      </div>
+    </div>
+
+  </div>
+  <!-----services-->
+  <div id="services">
+    <div class="container">
+      <h1 class="sub-title2"> My <span class="service">services</span></h1>
+      <div class="services-list">
+        <div>
+          <i class="fa-solid fa-code"></i>
+          <h2>Machine Learning</h2>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Adipisci consequatur earum sequi suscipit quia possimus non, </p>
+         <a href="#"><button class="learnmore">Learn more</button></a>
+        </div>
+        <div>
+          <i class="fa-brands fa-app-store"></i>
+          <h2>App Devlopment</h2>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Adipisci consequatur earum sequi suscipit quia possimus non,  </p>
+          <a href="#"><button class="learnmore">Learn more</button></a>
+        </div>
+        <div>
+          <i class="fa-solid fa-crop-simple"></i>
+          <h2>Data Analytics</h2>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Adipisci consequatur earum sequi suscipit quia possimus non, </p>
+          <a href="#"><button class="learnmore">Learn more</button></a>
+        </div>
+      </div>
+
+    </div>
+  </div>
+  <!---projects-->
+  <div id="projects">
+    <div class="container">
+      <h1 class="sub-title2">My <span class="service">work</span></h1>
+      <div class="work-list">
+        <div class="work">
+          <img src="images/work-1.png">
+          <div class="layer">
+            <h3>Whatsapp Chat Analyzer</h3>
+            <p>The project visualizes WhatsApp data, providing insightful analytics.</p>
+            <a href="https://github.com/Deepak-Ahirwar/whatsapp-chat-analysis" target="_blank"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+          </div>
+        </div>
+        <div class="work">
+          <img src="images/work-2.png">
+          <div class="layer">
+            <h3>Movies Recommendatin System</h3>
+            <p>The project generates content by identifying similarities in textual data.</p>
+            <a href="https://recommender-systemgit-aveyydx9s4tfmqqcyglj56.streamlit.app/" target="_blank"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+          </div>
+        </div>
+        <div class="work">
+          <img src="images/work-3.png">
+          <div class="layer">
+            <h3>Spam-Email Classifier</h3>
+            <p>The project identifies and separates spam emails, enhancing inbox efficiency and security.</p>
+            <a href="https://github.com/Deepak-Ahirwar/SMS-Spam-Detection" target="_blank"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+          </div>
+        </div>
+
+      </div>
+      <a href="#" class="btn1">See more</a>
+    </div>
+  </div>
+  <!-- Blogs -->
+  <div id="blogs">
+    <div class="container">
+      <h1 class="sub-title2">My <span class="service">Blogs</span></h1>
+      <div class="work-list">
+        <div class="work">
+          <img src="images/work-1.png">
+          <div class="layer">
+            <h3>Blog on Natural Language Processing</h3>
+            <p>The project visualizes WhatsApp data, providing insightful analytics.</p>
+            <a href="https://github.com/Deepak-Ahirwar/whatsapp-chat-analysis" target="_blank"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+          </div>
+        </div>
+        <div class="work">
+          <img src="images/work-2.png">
+          <div class="layer">
+            <h3>Understanding Machine Learning</h3>
+            <p>Machine Learning is the practice of enabling machines to learn from data, 
+              make predictions, and improve performance without explicit programming.
+            </p>
+            <a href="https://medium.com/@ahirward247/understanding-machine-learning-4af935bd9688" target="_blank"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+          </div>
+        </div>
+        <div class="work">
+          <img src="images/work-3.png">
+          <div class="layer">
+            <h3>Blogs on Random Forest Algorithms</h3>
+            <p>The project identifies and separates spam emails, enhancing inbox efficiency and security.</p>
+            <a href="https://github.com/Deepak-Ahirwar/SMS-Spam-Detection" target="_blank"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+          </div>
+        </div>
+
+      </div>
+      <a href="#" class="btn1">See more</a>
+    </div>
+  </div>
+  <!--contact-->
+  <div id="contact">
+    <div class="container">
+      <div class="row">
+        <div class="contact-left">
+          <h1 class="sub-title">Contact Me
+          </h1>
+          <p> <i class="fa-solid fa-paper-plane"></i> ahirward247@gmail.com </p>
+          <p><i class="fa-solid fa-square-phone"></i>+91-9399346883</p>
+          <div class="social-icons">
+            <a href="https://www.facebook.com/profile.php?id=100028319163188" target="_blank"><i class="fa-brands fa-facebook"></i></a>
+            <a href="https://twitter.com/imDahiwar" target="_blank"><i class="fa-brands fa-twitter"></i></a>
+            <a href="https://www.instagram.com/im_er.deepak/" target="_blank"><i class="fa-brands fa-instagram"></i></a>
+            <a href="https://www.linkedin.com/in/deepak-ahirwar/" target="_blank"><i class="fa-brands fa-linkedin"></i></a>
+            <a href="http://https://medium.com/@ahirward247" target="_blank"><i class="fa-brands fa-medium"></i></a>
+          </div>
+        </div>
+        <div class="contact-right">
+          <form action="send_email.php" method="POST" target="_blank">
+            <input type="text" name="Name" placeholder="Your Name" required>
+            <input type="email" name="email" placeholder="Your email" required>
+            <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+            <button type="submit" class="btn1 btn3">Submit</button>
+          </form>
+          
+
+        </div>
+       
+      </div>
+      <a href="#header" class="move-up"><i class="fa-solid fa-arrow-up-from-bracket"></i></a>
+    </div>
+    <div class="copyright">
+      <p> copyright © Deepak 2023</p>
+      <p>All Rights Reserved</p>
+      
+    </div>
+  </div>
+  
+
+  <script src="script.js">
+   
+  </script>
+  
+</body>
+</html>
